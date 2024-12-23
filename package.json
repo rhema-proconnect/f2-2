@@ -46,7 +46,7 @@
   "scripts": {
     "preinstall": "npm config set legacy-peer-deps true",
     "start": "react-scripts start",
-    "build": "rm -rf node_modules && npm install --legacy-peer-deps && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
